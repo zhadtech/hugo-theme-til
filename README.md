@@ -23,16 +23,21 @@ breaking up the flow of your writing.
 Highlight important notes, warnings, tips, or anything that deserves special attention with styled callout boxes. Great
 for keeping readers informed.
 
-### JSON-LD data
+### Improved JSON-LD data
 
-Automatically includes structured [JSON-LD] data for better SEO. This feature helps search engines understand your
-content, making it easier for your posts to show up in relevant search results with rich snippets like author details,
-dates, and more.
+The theme enhances Hugo’s built-in [JSON-LD] structured data by adding more detailed metadata, helping search engines
+better understand your content and making it easier for your posts to appear in relevant search results.
 
 ### Built-in blocking of generative AI/LLM associated web crawlers
 
-Prevent web crawlers commonly used to train AI models from accessing your site. This feature protects your content from
-being used in datasets for generative AI or large language models, helping you control who sees and uses your material.
+If you’re concerned about your content being used as training data for generative AI and language models, the theme’s
+robots.txt template allows you to easily block a wide range of genAI and LLM-related web crawlers.
+
+### Easy Creative Commons licensing
+
+The theme includes simple options for adding a [Creative Commons license] to your content, allowing you to define how
+others can use, share, or adapt your work. You can choose the most appropriate Creative Commons license, and it will
+automatically appear in the website footer with optional usage icons.
 
 ## Configuration
 
@@ -114,3 +119,4 @@ in the `[params]` section of your site's [hugo.toml] configuration file.
 
 [JSON-LD]: https://json-ld.org/
 [hugo.toml]: https://gohugo.io/getting-started/configuration/#configuration-file
+[Creative Commons license]: https://creativecommons.org/share-your-work/cclicenses/
