@@ -1,6 +1,12 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+
+<a name="v0.3.0"></a>
+## [v0.3.0] - 2024-11-02
+### Documentation
+- add changelog
+
 ### Features
 - add clipboard copy and links to code blocks
 
@@ -33,7 +39,8 @@
 - initial commit
 
 
-[Unreleased]: https://github.com/michenriksen/hugo-theme-til/compare/v0.2.1...HEAD
+[Unreleased]: https://github.com/michenriksen/hugo-theme-til/compare/v0.3.0...HEAD
+[v0.3.0]: https://github.com/michenriksen/hugo-theme-til/compare/v0.2.1...v0.3.0
 [v0.2.1]: https://github.com/michenriksen/hugo-theme-til/compare/v0.2.0...v0.2.1
 [v0.2.0]: https://github.com/michenriksen/hugo-theme-til/compare/v0.1.1...v0.2.0
 [v0.1.1]: https://github.com/michenriksen/hugo-theme-til/compare/v0.1.0...v0.1.1
