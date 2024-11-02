@@ -1471,6 +1471,11 @@ a.taxonomy:hover .count {
   overflow-x: scroll;
 }
 
+.codeblock .hl {
+  --tw-bg-opacity: 1;
+  background-color: rgb(47 50 72 / var(--tw-bg-opacity));
+}
+
 footer a {
   text-decoration-line: underline;
 }
