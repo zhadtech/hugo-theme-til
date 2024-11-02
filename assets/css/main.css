@@ -197,6 +197,10 @@
     @apply !text-blue-800 hover:decoration-2 hover:underline-offset-2;
   }
 
+  article.main .codeblock-meta a {
+    @apply !text-white/70 hover:!text-sky-400;
+  }
+
   a.taxonomy {
     @apply whitespace-nowrap rounded-sm border border-slate-200 bg-slate-100 p-1 text-sm font-semibold lowercase no-underline;
   }
@@ -313,6 +317,10 @@
   .codeblock div.chroma,
   pre code {
     @apply overflow-x-scroll;
+  }
+
+  .codeblock .hl {
+    @apply bg-[#2f3248];
   }
 
   footer a {

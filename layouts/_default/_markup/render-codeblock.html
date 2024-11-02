@@ -1,5 +1,31 @@
 {{- $id := printf "codeblock-%02d" ( add .Ordinal 1) -}}
-<figure class="codeblock not-prose scroll-mt-8" id="{{ $id }}">
+<figure class="codeblock not-prose scroll-mt-8 relative" id="{{ $id }}">
+  <aside class="absolute top-0 right-0 py-1 bg-white/10 transition-opacity px-2 rounded-bl-sm rounded-tr-sm hidden md:inline-block text-white/70">
+    <div class="codeblock-meta flex flex-row space-x-3 items-center max-w-xs">
+      <div class="font-mono text-xs small-caps shrink truncate cursor-default" aria-hidden="true">
+        <span class="relative">{{ .Type }}</span>
+      </div>
+      <div>
+        <clipboard-copy
+          type="button"
+          aria-label="Copy code to clipboard"
+          class="block hover:text-sky-400 transition-colors cursor-pointer"
+          target="#{{ $id }} code"
+        >
+          {{ partial "svg/clipboard.html" }}
+        </clipboard-copy>
+      </div>
+      <div>
+        <a
+          href="#{{ $id }}"
+          class="block"
+          aria-label="Link to this code block"
+        >
+          {{ partial "svg/Link.html" }}
+        </a>
+      </div>
+    </div>
+  </aside>
   <p class="sr-only">{{ .Type }} code snippet start</p>
   {{ transform.Highlight .Inner .Type .Options }}
   <p class="sr-only">{{ .Type }} code snippet end</p>
