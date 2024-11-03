@@ -324,7 +324,7 @@
   }
 
   article.main .diagram-meta a {
-    @apply !text-gray-500 hover:!text-sky-400 transition-colors;
+    @apply !text-gray-500 transition-colors hover:!text-sky-400;
   }
 
   footer a {

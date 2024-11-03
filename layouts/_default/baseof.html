@@ -18,5 +18,19 @@
         {{ partial "footer.html" . }}
       </footer>
     </div>
+    {{ if .Store.Get "hasMermaid" }}
+      <script
+        src="https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js"
+        integrity="sha256-G8ouPAnw4zzMbnAenHnVz6h9XpKbNdOkrqTh7AadyHs="
+        crossorigin="anonymous"
+      ></script>
+      <script type="text/javascript">
+        mermaid.initialize({
+          startOnLoad: true,
+          theme: 'neutral',
+          fontFamily: "'LatoLatinWeb', sans-serif"
+        });
+      </script>
+    {{ end }}
   </body>
 </html>
