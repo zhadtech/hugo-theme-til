@@ -7,14 +7,19 @@ options:
   commits:
     filters:
       Type:
-        - docs
         - feat
         - fix
+        - docs
   commit_groups:
+    sort_by: Custom
     title_maps:
-      docs: Documentation
       feat: Features
       fix: Fixes
+      docs: Documentation
+    title_order:
+      - feat
+      - fix
+      - docs
   header:
     pattern: "^(\\w*)\\:\\s(.*)$"
     pattern_maps:

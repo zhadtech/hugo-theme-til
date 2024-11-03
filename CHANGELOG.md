@@ -1,17 +1,21 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+### Features
+- add hover titles to code block buttons
+- add Mermaid diagram support
+
 
 <a name="v0.3.0"></a>
 ## [v0.3.0] - 2024-11-02
-### Documentation
-- add changelog
-
 ### Features
 - add clipboard copy and links to code blocks
 
 ### Fixes
 - use better color for code block line highlights
+
+### Documentation
+- add changelog
 
 
 <a name="v0.2.1"></a>
