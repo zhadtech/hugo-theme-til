@@ -6,6 +6,9 @@
 - add hover titles to code block buttons
 - add Mermaid diagram support
 
+### Fixes
+- improve link styling in admonitions
+
 
 <a name="v0.3.0"></a>
 ## [v0.3.0] - 2024-11-02
