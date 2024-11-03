@@ -1,6 +1,9 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+
+<a name="v0.4.0"></a>
+## [v0.4.0] - 2024-11-03
 ### Features
 - add support for page feature images
 - add hover titles to code block buttons
@@ -47,7 +50,8 @@
 - initial commit
 
 
-[Unreleased]: https://github.com/michenriksen/hugo-theme-til/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/michenriksen/hugo-theme-til/compare/v0.4.0...HEAD
+[v0.4.0]: https://github.com/michenriksen/hugo-theme-til/compare/v0.3.0...v0.4.0
 [v0.3.0]: https://github.com/michenriksen/hugo-theme-til/compare/v0.2.1...v0.3.0
 [v0.2.1]: https://github.com/michenriksen/hugo-theme-til/compare/v0.2.0...v0.2.1
 [v0.2.0]: https://github.com/michenriksen/hugo-theme-til/compare/v0.1.1...v0.2.0
