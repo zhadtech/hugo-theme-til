@@ -2202,6 +2202,18 @@ footer a:hover {
   margin-top: 2rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.\!mb-20 {
+  margin-bottom: 5rem !important;
+}
+
 .block {
   display: block;
 }
@@ -2516,6 +2528,10 @@ footer a:hover {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .text-center {

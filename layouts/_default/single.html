@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{- $imgResources := .Resources.ByType "image" -}}
   <article class="main">
     <header>
       <h1 class="!mb-1">{{ .Title | title }}</h1>
@@ -11,6 +12,20 @@
             >{{ $dateHuman }}</time
           >
         </div>
+      {{- end }}
+
+      {{- with $imgResources.GetMatch "{*feature*,*cover*}" }}
+        <figure class="feature-image !mb-20 block text-center">
+          <img
+            src="{{ .RelPermalink }}"
+            width="{{ .Width }}"
+            height="{{ .Height }}"
+            alt="{{ $.Params.FeatureCaption }}"
+          />
+          {{- with $.Params.FeatureCaption }}
+            <figcaption class="text-xs italic">{{ . |  markdownify }}</figcaption>
+          {{- end }}
+        </figure>
       {{- end }}
     </header>
 
