@@ -294,18 +294,34 @@
     svg {
       @apply relative -top-[2px];
     }
+
+    a {
+      @apply underline decoration-1;
+    }
   }
 
   .admonition.tip {
     @apply border-indigo-200 bg-indigo-100 text-indigo-800;
+
+    a {
+      @apply !text-indigo-900;
+    }
   }
 
   .admonition.warning {
     @apply border-orange-200 bg-orange-100 text-orange-800;
+
+    a {
+      @apply !text-orange-900;
+    }
   }
 
   .admonition.danger {
     @apply border-red-200 bg-red-100 text-red-800;
+
+    a {
+      @apply !text-red-900;
+    }
   }
 
   .codeblock pre {
