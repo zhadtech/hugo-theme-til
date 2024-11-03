@@ -323,6 +323,10 @@
     @apply bg-[#2f3248];
   }
 
+  article.main .diagram-meta a {
+    @apply !text-gray-500 hover:!text-sky-400 transition-colors;
+  }
+
   footer a {
     @apply underline hover:decoration-2;
   }
