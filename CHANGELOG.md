@@ -2,6 +2,7 @@
 ## [Unreleased]
 
 ### Features
+- add support for page feature images
 - add hover titles to code block buttons
 - add Mermaid diagram support
 
