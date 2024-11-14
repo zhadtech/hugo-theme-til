@@ -2,6 +2,12 @@
 ## [Unreleased]
 
 
+<a name="v0.5.1"></a>
+## [v0.5.1] - 2024-11-14
+### Fixes
+- only center figure caption text
+
+
 <a name="v0.5.0"></a>
 ## [v0.5.0] - 2024-11-14
 ### Features
@@ -60,7 +66,8 @@
 - initial commit
 
 
-[Unreleased]: https://github.com/michenriksen/hugo-theme-til/compare/v0.5.0...HEAD
+[Unreleased]: https://github.com/michenriksen/hugo-theme-til/compare/v0.5.1...HEAD
+[v0.5.1]: https://github.com/michenriksen/hugo-theme-til/compare/v0.5.0...v0.5.1
 [v0.5.0]: https://github.com/michenriksen/hugo-theme-til/compare/v0.4.0...v0.5.0
 [v0.4.0]: https://github.com/michenriksen/hugo-theme-til/compare/v0.3.0...v0.4.0
 [v0.3.0]: https://github.com/michenriksen/hugo-theme-til/compare/v0.2.1...v0.3.0
