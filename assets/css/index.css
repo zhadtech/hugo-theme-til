@@ -1137,7 +1137,6 @@ article.main .codeblock-meta a:hover {
 }
 
 article.main figure {
-  text-align: center;
   img {
     margin-bottom: 0px;
   }
@@ -1151,15 +1150,18 @@ article.main figure {
     margin-top: 0.25rem;
   }
   figcaption {
+    text-align: center;
+  }
+  figcaption {
+    h4 {
+      margin-top: 0px;
+    }
     p {
       margin-top: 0.25rem;
     }
     p {
       font-style: italic;
     }
-  }
-  h4 {
-    margin-top: 0px;
   }
 }
 

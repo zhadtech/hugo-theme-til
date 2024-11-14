@@ -202,22 +202,20 @@
   }
 
   article.main figure {
-    @apply text-center;
-
     img {
       @apply mb-0 border p-1;
     }
 
     figcaption {
-      @apply mt-1;
+      @apply mt-1 text-center;
+
+      h4 {
+        @apply mt-0;
+      }
 
       p {
         @apply mt-1 italic;
       }
-    }
-
-    h4 {
-      @apply mt-0;
     }
   }
 
