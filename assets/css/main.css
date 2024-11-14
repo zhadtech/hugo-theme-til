@@ -201,6 +201,26 @@
     @apply !text-white/70 hover:!text-sky-400;
   }
 
+  article.main figure {
+    @apply text-center;
+
+    img {
+      @apply mb-0 border p-1;
+    }
+
+    figcaption {
+      @apply mt-1;
+
+      p {
+        @apply mt-1 italic;
+      }
+    }
+
+    h4 {
+      @apply mt-0;
+    }
+  }
+
   a.taxonomy {
     @apply whitespace-nowrap rounded-sm border border-slate-200 bg-slate-100 p-1 text-sm font-semibold lowercase no-underline;
   }
