@@ -4,7 +4,8 @@ A Hugo theme focused on simplicity and readability. Ideal for both traditional b
 it easy to record and share knowledge that doesn’t need a full blog post. Perfect for quick tips, insights, and
 discoveries.
 
-Check out the theme demo at <https://michenriksen.com/til-example-site>.
+Check out the theme demo at <https://michenriksen.com/til-example-site> or [browse the repository] to see how it's set
+up.
 
 > [!NOTE]
 > This theme is in beta and is not yet feature-complete. Bugs and quirks may still be present. Check back regularly for updates with new features and bug fixes!
@@ -50,3 +51,4 @@ automatically appear in the website footer with optional usage icons.
 
 [JSON-LD]: https://json-ld.org/
 [Creative Commons license]: https://creativecommons.org/share-your-work/cclicenses/
+[browse the repository]: https://github.com/michenriksen/til-example-site
