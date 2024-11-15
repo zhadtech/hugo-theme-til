@@ -115,6 +115,7 @@ export default class Graph {
     edges: DataSet<Partial<Edge>>
   ): Record<string, number> {
     const count: Record<string, number> = {};
+
     nodes.forEach((n) => (count[n.id!] = 0));
     edges.forEach((e) => {
       if (count[e.to] !== undefined) {
@@ -137,7 +138,7 @@ export default class Graph {
           ? ((degree - minDegree) / (maxDegree - minDegree)) * (NODE_MAX_SIZE - NODE_MIN_SIZE) +
             NODE_MIN_SIZE
           : NODE_MIN_SIZE;
-      node.size = size;
+      node.size = isNaN(size) ? NODE_MIN_SIZE : size;
     });
   }
 }
