@@ -1,3 +1,3 @@
-module github.com/michenriksen/hugo-theme-til
+module github.com/zhadtech/hugo-theme-til
 
 go 1.23.2
